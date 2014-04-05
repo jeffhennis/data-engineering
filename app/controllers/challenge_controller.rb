@@ -34,35 +34,3 @@ class ChallengeController < ApplicationController
   end
 end
 
-
-
-=begin
-https://github.com/lschallenges/data-engineering
-
-
- bin/rails generate migration CreatePurchaseTable
- bin/rake db:migrate
-
- sqlite3 db/development.sqlite3
- 
- #to see tables
- .tables
-
- #to see purchases
- select * from purchases;
-
-
-
-
-#TODO
-
-make item_price to currency
-figure out openid
-
-  
-purchaser name  item description  item price  purchase count  merchant address  merchant name
-Snake Plissken  $10 off $20 of food 10.0  2 987 Fake St Bob's Pizza
-Amy Pond  $30 of awesome for $10  10.0  5 456 Unreal Rd Tom's Awesome Shop
-Marty McFly $20 Sneakers for $5 5.0 1 123 Fake St Sneaker Store Emporium
-Snake Plissken  $20 Sneakers for $5 5.0 4 123 Fake St Sneaker Store Emporium
-=end
